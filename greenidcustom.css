@@ -1,0 +1,13 @@
+/*
+   Custom CSS for ASB greenID 
+ */
+
+ .greenid-so-content {
+
+  background: black;
+ }
+
+ .greenid-so-content #greenid-container p {
+
+ 	color: white;
+ }
