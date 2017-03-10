@@ -1,8 +1,19 @@
 /*
    Custom CSS for ASB greenID 
+
+   Author: MK;
+
+	Colors
+   Background 	#000
+	text color 	#fff
+
  */
 
-
+html {
+	font-family: "Calibri Light", Calibri, Helvetica, Arial, sans-serif;
+	background: #000;
+	color: #fff;
+}
 .greenid-so-content {
     background: black;
 }
@@ -10,4 +21,15 @@
 #greenid-container {
     background-color: black;
     color: white;
+}
+
+.greenid-modal-backdrop {
+
+    background-color: black;
+
+}
+
+.modal-dialog {
+	background-color: #fcf8e3;
+	color: rgba(255,255,255,0.6);
 }
