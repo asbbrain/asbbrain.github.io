@@ -43,3 +43,7 @@ html {
 	background-color: #fcf8e3;
 	color: #000;
 }
+
+.greenid-modal-text:after {
+  content: "  This error is displayed because of timeout.";
+}
