@@ -44,6 +44,6 @@ html {
 	color: #000;
 }
 
-.greenid-modal-text:after {
+#greenid-modal-text:after {
   content: "  This error is displayed because of timeout.";
 }
