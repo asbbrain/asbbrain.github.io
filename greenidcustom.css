@@ -47,3 +47,13 @@ html {
 #greenid-modal-text:after {
   content: "  This error is displayed because of timeout.";
 }
+
+.greenid-so-content-image-selfie {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(https://asbbrain.github.io/dummy-selfie.png) no-repeat;
+  width: 315px;
+  height: 211px;
+  padding-left: 315px;
+}
