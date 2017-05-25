@@ -4,56 +4,152 @@
    Author: MK;
 
 	Colors
-   Background 	#000
-	text color 	#fff
+   Background 	#000000
+	 text color 	#FFFFFF
+   Yellow       #FCBD1B
 
  */
 
 html {
-	font-family: "Calibri Light", Calibri, Helvetica, Arial, sans-serif;
+	font-family: -apple-system, "Calibri Light", Calibri, Helvetica, Arial, sans-serif;
 	background: #000;
 	color: #fff;
 }
+
+/* 
+ * -- General - All Screens -- 
+ */
+
+/* Each page outer container */
 .greenid-so-content {
-    background: black;
+    background: #000000;
+
+  /* default */
+  /* padding: 35px 30px 30px */
+  padding: 0px;
 }
 
+
+/* The inner block inside each page */
 #greenid-container {
-    background-color: black;
-    color: white;
+  background-color: #000000;
+  color: #FFFFFF;
+  margin: 0 32px;
 }
 
-.greenid-modal-backdrop {
 
-    background-color: black;
+/* Navigation bar at the top */
+.greenid-so-content-nav {
+
+  min-height: 44px;
+  border-bottom: solid 1px #ffffff;
+  background-color: #000000;
+  margin: 0 -32px;
+}
+
+.greenid-so-content #greenid-container .btn-cancel {
+  background-image: none;
+  background-color: #000000;
+  color: #FCBD1B;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 15px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+
+/* 
+ * -- Confirm ocr page -- 
+ */
+
+.greenid-so-content #greenid-so-content-confirm-details {
 
 }
 
-.modal-dialog {
-	background-color: #fcf8e3;
-	color: #000;
+/* Confirm OCR page heading */
+.greenid-so-content #greenid-container h1 {
+  color: #fff;
+  font-size: 24px;
+  line-height: 1.4;
 }
 
-.modal-content {
-	background-color: #fcf8e3;
-	color: #000;
+/* form */
+form#greenid-so-confirm-details-form {
 }
 
-.modal-body {
-	background-color: #fcf8e3;
-	color: #000;
+.greenid-so-content #greenid-container label {
+  font-size: 15px;
+  color: #fff;
+  text-transform: none;
+
 }
 
-#greenid-modal-text:after {
-  content: "  This error is displayed because of timeout.";
+.greenid-so-content #greenid-container .form-group {
+  height: 55px;
+  margin-bottom: 22px;
 }
 
-.greenid-so-content-image-selfie {
-  display: block;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  background: url(https://asbbrain.github.io/dummy-selfie.png) no-repeat;
-  width: 315px;
-  height: 211px;
-  padding-left: 315px;
+.input-group {
+  background-color: transparent;
+
+}
+
+#greenid-container .input-group {
+  border-bottom: solid 1px #fcbd1b;
+  width: 100%;
+}
+
+/* Input fields */
+
+.greenid-so-content #greenid-container input[type='text'], 
+.greenid-so-content #greenid-container input[type='number'], 
+.greenid-so-content #greenid-container input[type='date'], 
+.greenid-so-content #greenid-container input[type='tel'], 
+.greenid-so-content #greenid-container input[type='email'], 
+.greenid-so-content #greenid-container input[type='password'], 
+.greenid-so-content #greenid-container input[type='datetime'], 
+.greenid-so-content #greenid-container input[type='month'],
+.greenid-so-content #greenid-container textarea {
+  background-color: transparent;
+  border: none;
+  padding: 2px 0;
+  font-size: 24px;
+  color: #fff;
+}
+
+/* Calendar input button */
+#greenid-container .input-group-addon {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
+/* clear button next to input */
+
+#greenid-container .input-group-btn{
+  background-color: transparent;
+}
+
+.greenid-so-content #greenid-container .input-group-btn button {
+  background-color: transparent;
+  border: none;
+  width: 19px;
+  height: 19px;
+
+}
+
+/* Primary button - usually next or continue */
+.greenid-so-content #greenid-container .btn-primary {
+  background-color: #FCBD1B;
+  border-radius: 2px;
+  color: #000;
+  font-size: 18px;
+  text-transform: none;
+}
+
+/* Next button */
+.greenid-so-content #greenid-container .btn-next {
+  background-image: none;
 }
