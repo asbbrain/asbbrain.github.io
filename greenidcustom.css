@@ -47,6 +47,11 @@ html {
   margin: 0 -32px;
 }
 
+.greenid-so-content #greenid-container .greenid-so-content-nav {
+
+  min-height: 44px;
+}
+
 .greenid-so-content #greenid-container .btn-cancel {
   background-image: none;
   background-color: #000000;
@@ -91,6 +96,10 @@ form#greenid-so-confirm-details-form {
   margin-bottom: 22px;
 }
 
+#greenid-container label {
+  margin-bottom: 0;
+}
+
 .input-group {
   background-color: transparent;
 
@@ -99,9 +108,14 @@ form#greenid-so-confirm-details-form {
 #greenid-container .input-group {
   border-bottom: solid 1px #fcbd1b;
   width: 100%;
+  margin-bottom: 22px;
 }
 
 /* Input fields */
+
+.greenid-so-content #greenid-container .form-group {
+  margin-bottom: 0
+}
 
 .greenid-so-content #greenid-container input[type='text'], 
 .greenid-so-content #greenid-container input[type='number'], 
