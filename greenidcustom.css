@@ -51,7 +51,7 @@ html {
 
 /* Back button in nav bar */
 .greenid-so-content #greenid-container .btn-back {
-  background-image: url('images/yellow-back-arrow.png');
+  background-image: url('https://asbbrain.github.io/images/yellow-back-arrow.png');
   color: #FCBD1B;
 }
 
