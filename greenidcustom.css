@@ -49,6 +49,12 @@ html {
   margin: 0 -32px;
 }
 
+/* Back button in nav bar */
+.greenid-so-content #greenid-container .btn-back {
+  background-image: url('images/yellow-back-arrow.png');
+  color: #FCBD1B;
+}
+
 .greenid-so-content #greenid-container .greenid-so-content-nav {
 
   min-height: 44px;
