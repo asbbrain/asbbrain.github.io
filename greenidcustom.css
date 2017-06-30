@@ -108,6 +108,21 @@ html {
   font-weight: 300;
 }
 
+
+/*
+ * License page
+ */
+.greenid-so-content #greenid-container .greenid-so-content-image-container img {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url('https://asbbrain.github.io/image/instructions_license_310.png');
+  width: 100%;
+  height: 165px;
+  padding-left: 350px;
+
+}
+
 /* 
  * -- Confirm ocr page -- 
  */
