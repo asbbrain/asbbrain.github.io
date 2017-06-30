@@ -49,6 +49,11 @@ html {
   margin: 0 -32px;
 }
 
+.greenid-so-content #greenid-container .btn {
+  font-family: -apple-system;
+}
+
+
 /* Back button in nav bar */
 .greenid-so-content #greenid-container .btn-back {
   background-color: transparent;
@@ -57,6 +62,8 @@ html {
   background-repeat: no-repeat;
   background-size: 18px 25px;
   color: #FCBD1B;
+  margin-left: 6px;
+  margin-top: 10px;
 }
 
 .greenid-so-content #greenid-container .greenid-so-content-nav {
