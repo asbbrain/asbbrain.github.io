@@ -53,6 +53,9 @@ html {
 .greenid-so-content #greenid-container .btn-back {
   background-color: transparent;
   background-image: url('https://asbbrain.github.io/image/yellow-back-arrow.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 18px 25px;
   color: #FCBD1B;
 }
 
