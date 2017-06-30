@@ -66,8 +66,9 @@ html {
   min-height: 44px;
   border-bottom: none;
   background-color: #000000;
-  
-  background: url('https://asbbrain.github.io/image/ASB_logo_yellow.png') no-repeat center;
+  background-image: url('https://asbbrain.github.io/image/ASB_logo_yellow.png');
+  background-repeat: no-repeat;
+  background-position: center;
   margin: 0 -32px;
 }
 
