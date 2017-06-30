@@ -32,22 +32,14 @@ html {
 
 /* The inner block inside each page */
 #greenid-container {
-  background-color: #000000;
+  /*background-color: #000000;*/
+  background-image: url('https://asbbrain.github.io/image/bg_iphone7.jpg');
   color: #FFFFFF;
   margin: 0 32px;
   padding-top: 20px;
   font-family: -apple-system, "Calibri Light", Calibri, Helvetica;
 }
 
-
-/* Navigation bar at the top */
-.greenid-so-content-nav {
-
-  min-height: 44px;
-  border-bottom: solid 1px #ffffff;
-  background-color: #000000;
-  margin: 0 -32px;
-}
 
 .greenid-so-content #greenid-container .btn {
   font-family: -apple-system;
@@ -66,10 +58,23 @@ html {
   margin-top: 10px;
 }
 
-.greenid-so-content #greenid-container .greenid-so-content-nav {
+
+/* Navigation bar at the top */
+.greenid-so-content-nav {
 
   min-height: 44px;
+  border-bottom: none;
+  background-color: #000000;
+  margin: 0 -32px;
 }
+
+/* Navigation bar */
+.greenid-so-content #greenid-container .greenid-so-content-nav {
+
+  background-color: #000000;
+  min-height: 44px;
+}
+
 
 .greenid-so-content #greenid-container .btn-cancel {
   background-image: none;
