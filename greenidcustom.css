@@ -147,6 +147,7 @@ html {
 /* Dropdown item */
 #greenid-container .list-group-item {
   background-color: #000;
+  border: none;
   border-top: 2px solid #FCBD1B;
   padding: 20px 15px;
 }
