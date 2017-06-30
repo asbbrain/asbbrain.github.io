@@ -22,8 +22,8 @@ html {
 
 /* Each page outer container */
 .greenid-so-content {
-    background: #000000;
-
+  background-image: url('https://asbbrain.github.io/image/background_414px.jpg');
+  height: 100%;
   /* default */
   /* padding: 35px 30px 30px */
   padding: 0px;
@@ -32,8 +32,6 @@ html {
 
 /* The inner block inside each page */
 #greenid-container {
-  /*background-color: #000000;*/
-  background-image: url('https://asbbrain.github.io/image/bg_iphone7.jpg');
   color: #FFFFFF;
   margin: 0 32px;
   padding-top: 20px;
