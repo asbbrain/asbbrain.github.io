@@ -93,15 +93,20 @@ html {
  * General Pages Headings
  */
 
-/* Confirm OCR page heading */
+/* H1 heading */
 .greenid-so-content #greenid-container h1 {
   color: #FFFFFF;
   font-size: 24px;
   line-height: 1.4;
-  margin: 56px 32px 21px 32px;
+  margin-top: 56px;
+  margin-bottom: 21px;
 }
 
-
+/* p text below H1 heading */
+.greenid-so-content #greenid-container p {
+  font-size: 15px;
+  font-weight: 300;
+}
 
 /* 
  * -- Confirm ocr page -- 
