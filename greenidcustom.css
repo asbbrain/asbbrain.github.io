@@ -22,6 +22,7 @@ html {
 
 /* Each page outer container */
 .greenid-so-content {
+  background-color: #000000;
   background-image: url('https://asbbrain.github.io/image/background_414px.jpg');
   background-repeat: no-repeat;
   height: 100%;
@@ -33,6 +34,7 @@ html {
 
 /* The inner block inside each page */
 #greenid-container {
+  background-color: transparent;
   color: #FFFFFF;
   margin: 0 32px;
   padding-top: 20px;
@@ -87,6 +89,19 @@ html {
   font-size: 16px;
 }
 
+/* 
+ * General Pages Headings
+ */
+
+/* Confirm OCR page heading */
+.greenid-so-content #greenid-container h1 {
+  color: #FFFFFF;
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 56px 32px 21px 32px;
+}
+
+
 
 /* 
  * -- Confirm ocr page -- 
@@ -94,13 +109,6 @@ html {
 
 .greenid-so-content #greenid-so-content-confirm-details {
 
-}
-
-/* Confirm OCR page heading */
-.greenid-so-content #greenid-container h1 {
-  color: #fff;
-  font-size: 24px;
-  line-height: 1.4;
 }
 
 /* form */
