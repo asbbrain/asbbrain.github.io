@@ -125,9 +125,31 @@ html {
 /* Dropdown arrow icon */
 .greenid-so-content #greenid-container .greenid-so-content-select-noicon-dropdown {
  /* background-image: none, url('/df/assets/images/so-select-arrow-dn.png');*/
+  margin-top: 25px;
 }
 
+.greenid-so-content #greenid-container .greenid-so-content-select-noicon-dropdown.greenid-so-content-select-item-nohover:focus, 
+.greenid-so-content #greenid-container .greenid-so-content-select-noicon-dropdown.greenid-so-content-select-item-nohover:hover {
+  background-image: none; /*, url('/df/assets/images/so-select-arrow-dn.png');*/
+}
 
+.greenid-so-content #greenid-container .greenid-so-content-select-noicon-dropdown:focus, 
+.greenid-so-content #greenid-container .greenid-so-content-select-noicon-dropdown:hover {
+  background-image: none; /*, url('/df/assets/images/so-select-arrow-dn-reverse.png');*/
+}
+
+.greenid-so-content #greenid-container .greenid-so-content-select-item-nohover:focus,
+.greenid-so-content #greenid-container .greenid-so-content-select-item-nohover:hover {
+  background-color: #000000;
+  color: #FCBD1B;
+}
+
+/* Dropdown item */
+#greenid-container .list-group-item {
+  background-color: #000;
+  border-top: 2px solid #FCBD1B;
+  padding: 20px 15px;
+}
 
 /*
  * License page
