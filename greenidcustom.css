@@ -23,6 +23,7 @@ html {
 /* Each page outer container */
 .greenid-so-content {
   background-image: url('https://asbbrain.github.io/image/background_414px.jpg');
+  background-repeat: no-repeat;
   height: 100%;
   /* default */
   /* padding: 35px 30px 30px */
